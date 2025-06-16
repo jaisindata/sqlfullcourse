@@ -1,0 +1,20 @@
+DBMS - A Database Management System is a collection of interrelated data and set of programs to access that data.
+Primary goal is to store and retrieve data.
+
+Datum is singular, Data is collection of data.
+Data: Raw,unprocessed facts.
+ex: 6,Jaisrith,Karamchedu
+Information: Processed data.
+ex: Jaisrith who is 6 years old is from Karamchedu.
+
+Database: Is collection of interrelated data. A container that holds tables and other SQL structures related to those tables.
+ex:Banking system, Library system etc.
+
+Table: A structure inside the database that holds data organized in columns(fields) and rows(records).
+
+Metadata: Data about other data.
+ex: author, date created, date modified, file size etc.
+
+Three tier archictecture: client - application - Database
+
+Data Abstraction: View level - logical level - physical level

@@ -11,10 +11,12 @@ FROM - Tells SQL engine where the data has to be retrieved from(table).
 
 WHERE - Filters what data has to be retrieved based on conditions given.
 
-ORDER BY - Used to sort data based on column(s) either in ascending or descending order. Default is ascending if sort order not mentioned.
+ORDER BY - Used to sort data based on column(s) either in ascending or descending order. 
+Default is ascending if sort order not mentioned.
 Note: Column order is important as sorting is sequential.
 
-GROUP BY - Is used to aggregate and group data. Combines rows (aggregates) with same value. Aggregates a column by another column.
+GROUP BY - Is used to aggregate and group data. Combines rows (aggregates) with same value. 
+Aggregates a column by another column.
 Note: All columns included in the select must be either aggregated or included in the group by.
 Note: The result of group by is determined by the unique values of grouped columns.
 
@@ -25,7 +27,8 @@ COUNT - Aggregate function to get the total number of values.
 SUM - Aggregate function is used to add up values.
 
 HAVING - This clause is used to filter on aggregated data.
-Note: WHERE clause is used to filter data before aggregation and HAVING clause is used to filter data after aggregation.
+Note: WHERE clause is used to filter data before aggregation.
+HAVING clause is used to filter data after aggregation.
 
 DISTINCT - Removes duplicate values and returns unique values from a column.
 

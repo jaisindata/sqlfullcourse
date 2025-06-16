@@ -1,0 +1,24 @@
+INSERT: To add data to your table.
+syntax:
+INSERT INTO <table_name>
+(column1,....,columnN)
+VALUES
+(value1,....,valueN)
+
+Note1: Can change the order of columns.
+Note2: Can eliminate column names if you give the values in order of table definition.
+Note3: Can skip few columns if you don't want to insert the values(updated as NULL if no default values).
+
+UPDATE: To update column data in your table.
+syntax:
+UPDATE <table_name>
+SET <column1> = <value1>,
+.,
+.,
+<columnN> = <valueN>
+WHERE <condition>;
+
+DELETE: To delete rows in you table.
+syntax:
+DELETE FROM <table_name>
+WHERE <condition>;

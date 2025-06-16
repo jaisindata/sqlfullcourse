@@ -1,0 +1,24 @@
+To create a database.
+syntax: CREATE DATABASE <database_name>;
+
+To use a databse.
+syntax: USE <database_name>;
+
+To create a table.
+syntax:
+CREATE TABLE <table_name>
+(
+  <cloumn_name1> <data_type>, [NULL or NOT NULL] [default <value>]
+  .,
+  .,
+  <column_namen> <data_type>
+);
+
+Data types: https://www.w3schools.com/sql/sql_datatypes.asp
+
+To descibe your table structure and constraints.
+syntax: DESC <table_name>;
+
+To completely remove a table.
+syntax: DROP TABLE <table_name>;
+
