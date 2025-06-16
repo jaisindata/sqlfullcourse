@@ -1,0 +1,6 @@
+WHERE Operators:
+Comparison Operators: =,<> !=,>,<,>=,<=
+Logical Operators: AND, OR, NOT
+Range Operator: BETWEEN
+Membership Operators: IN , NOT IN
+Search Operator: LIKE (%,_)
