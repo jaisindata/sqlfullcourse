@@ -4,3 +4,8 @@ Logical Operators: AND, OR, NOT
 Range Operator: BETWEEN
 Membership Operators: IN , NOT IN
 Search Operator: LIKE (%,_)
+
+IS NULL - To find NULL values
+
+Notes:
+- Use \ to escape special characters, escape ' with another '
