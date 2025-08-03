@@ -36,3 +36,5 @@ TOP - Is used to limit the number of rows returned (does bsed on row numbers).
 
 Code Ordering - SELECT : DISTINCT : TOP : COLUMNS : FROM : TABLE : WHERE : GROUP BY : HAVING : ORDER BY
 Execution Ordering - FROM : TABLE : COLUMNS : WHERE : GROUP BY : HAVING : SELECT : DISTINCT : TOP : ORDER BY
+
+/ - To escape special characters. You can escape ' with another ' quote
