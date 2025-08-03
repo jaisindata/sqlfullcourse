@@ -14,6 +14,8 @@ CREATE TABLE <table_name>
   <column_namen> <data_type>
 );
 
+SHOW CREATE TABLE <table_name>
+
 Data types: https://www.w3schools.com/sql/sql_datatypes.asp
 
 To descibe your table structure and constraints.

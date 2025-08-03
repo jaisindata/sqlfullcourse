@@ -1,0 +1,27 @@
+Relational:
+How columns(attributes) relate to each other to define a thing(object,row).
+Note: Relational does not actually mean multiple tables. It is putting related dated in one table.
+
+Things to consider when creating a table:
+1. What is the main thing you want your table to be about?
+2. How will you use this table (list of information)?
+3. How can you most easily query the table (information breakdown)?
+
+Atomic data:
+Smallest pieces of data that can't or shouldn't be divided further.
+
+Questions to ask to put atomic data in your table:
+1. What is the one thing that your table describes?
+2. How will you use the table to get at the one thing?
+3. Do your columns contain atomic data to make your queries short an to the point?
+
+Rules for atomic data:
+1. A column with atomic data can't have several values of the same type of data.
+2. A table with atomic data can't have several columns with the same type of data.
+
+Normalization:
+Is to organize data inorder to reduce redundancy and improve data integrity.
+
+1NF:
+- Each row of data must contain atomic values.
+- Each row must have an unique identifier known as a Primary Key.
