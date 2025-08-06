@@ -1,6 +1,6 @@
 Relational:
 How columns(attributes) relate to each other to define a thing(object,row).
-Note: Relational does not actually mean multiple tables. It is putting related dated in one table.
+Note: Relational does not mean multiple tables relating to each other. It is putting related dated in one table.
 
 Things to consider when creating a table:
 1. What is the main thing you want your table to be about?
@@ -25,3 +25,19 @@ Is to organize data inorder to reduce redundancy and improve data integrity.
 1NF:
 - Each row of data must contain atomic values.
 - Each row must have an unique identifier known as a Primary Key.
+
+Primary Key: Is a column in the table that makes each record unique.
+- A primary key can't be NULL.
+- It must be given a value when the record is inserted.
+- It must be compact.
+- It can't be changed.
+
+Foreign Key: Is a column in table that references the Primary Key of another table.
+- It can have a different name than the primary key it comes from.
+- The primary key used by a foreign key is also known as parent key. The table where the primary key is from is known as a parent table.
+- The foreign key can be used to make sure that the rows in one table have corresponding rows in another table.
+- Foreign key values can be NULL eventhough primary key values can't.
+- Foreign key values don't have to be unique, infact often they aren't.
+
+Scchema:
+A representation of all the structures, such as tables and columns in the database, along with how they connect.
